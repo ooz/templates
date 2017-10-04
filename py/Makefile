@@ -11,7 +11,7 @@ clean_vscode:
 
 clean_pypi:
 	rm -rf dist
-	rm -rf epages_rest_python.egg-info
+	rm -f *.egg-info
 
 clean_all: clean clean_vscode clean_pypi
 
