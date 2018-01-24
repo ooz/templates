@@ -1,7 +1,10 @@
 ---
 title: "Title"
+separator: <!--s-->
+verticalSeparator: <!--v-->
 theme: league
 revealOptions:
+    controls: false
     transition: 'slide'
     slideNumber: 'c/t'
 ---
@@ -20,26 +23,26 @@ City, 9999-12-31
 
 Note: THIS IS JUST FOR ME! HAHA!
 
----
+<!--s-->
 
-## Plan
+## Plan with Fragments
 
-1. First things first
-2. Second stuff second
-3. Third issues last
+1. First things first <!-- .element: class="fragment" -->
+2. Second stuff second <!-- .element: class="fragment" -->
+3. Third issues last <!-- .element: class="fragment" -->
 
 Note: 4. Yawn
 
----
+<!--s-->
 
 ### Slide
 
 * **FAT** *italic* --nah--
 * [Link](https://github.com/ooz)
 
-> "Smart one ..." - Oliver 
+> "Smart one ..." - Oliver
 
-----
+<!--v-->
 
 #### Subslide with code
 
@@ -51,7 +54,7 @@ evil(foo) {
 }
 ```
 
-----
+<!--v-->
 
 ### Subslide with table
 
@@ -60,11 +63,11 @@ evil(foo) {
 |Oh? | Yeah!|
 |Oh... | Yeah...|
 
----
+<!--s-->
 
 ## Summary
 
----
+<!--s-->
 
 ## Thank You!
 
