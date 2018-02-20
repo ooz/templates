@@ -9,7 +9,7 @@ revealOptions:
     slideNumber: 'c/t'
 ---
 
-<!-- .slide: data-background="./background.png" -->
+<!-- .slide: class="slidebackground" data-background="./background.png" -->
 # Title IN YOUR FACE
 
 <b>
@@ -71,3 +71,9 @@ evil(foo) {
 
 ## Thank You!
 
+<style>
+.reveal .slidebackground {
+  background: no-repeat center center fixed;
+  background-size: cover; /* `contain` works nicely as well */
+}
+</style>
