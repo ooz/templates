@@ -36,6 +36,10 @@ init2: install_pipenv
 test:
 	pipenv run pytest
 
+# Docker
+docker_clean:
+	docker system prune --all
+
 # Publishing to pypi
 publish:
 	python setup.py publish
@@ -44,4 +48,5 @@ publish:
 .PHONY: clean clean_vscode clean_pypi clean_all \
 install_pipenv install_dependencies init init2 \
 test \
-publish 
+docker_clean \
+publish
