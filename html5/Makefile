@@ -18,6 +18,9 @@ docker_build:
 docker_run:
 	docker run --env-file ./env.list -p 8080:80 oozz/jstemplate:latest
 
+docker_run_d:
+	docker run --env-file ./env.list -p 8080:80 -d oozz/jstemplate:latest
+
 docker_buildrun: docker_build docker_run
 
 docker_clean:
@@ -25,4 +28,4 @@ docker_clean:
 
 # Pwny
 .PHONY: clean clean_vscode clean_all \
-docker_build docker_run docker_buildrun docker_clean \
+docker_build docker_run docker_run_d docker_buildrun docker_clean \
