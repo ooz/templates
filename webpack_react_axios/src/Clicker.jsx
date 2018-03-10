@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Clicker extends React.Component {
+export default class Clicker extends React.Component {
   constructor(props) {
     super(props);
     this.state = { clicks : 0 };
@@ -22,5 +22,3 @@ class Clicker extends React.Component {
     );
   }
 }
-
-export default Clicker;

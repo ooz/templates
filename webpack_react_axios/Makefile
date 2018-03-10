@@ -25,6 +25,9 @@ install:
 build_dev: install
 	./node_modules/.bin/webpack -d --watch
 
+build: install
+	./node_modules/.bin/webpack -p --optimize-minimize
+
 # Docker
 docker_build:
 	docker build -t oozz/webpacktemplate:latest .

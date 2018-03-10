@@ -10,8 +10,8 @@ var config = {
     path: BUILD_DIR,
     filename: 'bundle.js'
   },
-  module : {
-    rules : [
+  module: {
+    rules: [
       {
         test : /\.jsx?/,
         include : APP_DIR,
