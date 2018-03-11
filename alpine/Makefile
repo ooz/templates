@@ -7,5 +7,6 @@ build:
 clean:
 	docker system prune --all
 
-.PHONY: clean \
+.PHONY: all \
+clean \
 build

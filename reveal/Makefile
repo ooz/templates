@@ -1,7 +1,7 @@
 all:
 	reveal-md -w presentation.md --disable-auto-open
 
-test: 
+test:
 	reveal-md -w presentation.md
 
 print: presentation.md

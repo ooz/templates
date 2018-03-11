@@ -45,5 +45,5 @@ docker_clean:
 
 # Pwny
 .PHONY: clean clean_vscode clean_all \
-init install_dependencies build_dev \
+init install_dependencies install build_dev build \
 docker_build docker_run docker_run_d docker_buildrun docker_clean \
