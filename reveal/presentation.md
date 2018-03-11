@@ -9,6 +9,12 @@ revealOptions:
     slideNumber: 'c/t'
 ---
 
+<!--
+Useful snippets (to be used in HTML comments after elements)
+
+* Remove image border: .element style="border: none; background: none;"
+-->
+
 <!-- .slide: class="slidebackground" data-background="./background.png" -->
 # Title IN YOUR FACE
 
