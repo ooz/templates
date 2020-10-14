@@ -1,8 +1,5 @@
 all:
-	reveal-md -w presentation.md --disable-auto-open
-
-test:
-	reveal-md -w presentation.md
+	reveal-md presentation.md --watch --disable-auto-open
 
 print: presentation.md
 	reveal-md presentation.md --print presentation.pdf

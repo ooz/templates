@@ -2,10 +2,10 @@
 title: "Title"
 separator: <!--s-->
 verticalSeparator: <!--v-->
-theme: league
+theme: white
 revealOptions:
     controls: false
-    transition: 'slide'
+    transition: 'none'
     slideNumber: 'c/t'
 ---
 
@@ -18,14 +18,12 @@ Useful snippets (to be used in HTML comments after elements)
 <!-- .slide: class="slidebackground" data-background="./background.png" -->
 # Title IN YOUR FACE
 
-<b>
-Oliver<br/>
-Entropy Engineer<br/>
-[abc@xyz.com](mailto:abc@xyz.com)<br/>
-[github.com/ooz](https://github.com/ooz)
+**Oliver Z**<br/>
+**Software Engineer**<br/>
+[**abc@o.io**](mailto:abc@o.io)<br/>
+[**github.com/ooz**](https://github.com/ooz)
 
-City, 9999-12-31
-</b>
+**City, 9999-12-31**
 
 Note: THIS IS JUST FOR ME! HAHA!
 
