@@ -44,7 +44,6 @@ docker_clean:
 publish:
 	python setup.py publish
 
-# Pwny
 .PHONY: clean clean_vscode clean_pypi clean_all \
 install_pipenv install_dependencies init init2 \
 test \
