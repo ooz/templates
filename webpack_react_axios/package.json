@@ -17,16 +17,16 @@
   "author": "ooz",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.1",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.4",
+    "axios": "^1.6.7",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.3",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "webpack": "^4.1.1"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "webpack": "^5.90.1"
   },
   "devDependencies": {
-    "webpack-cli": "^2.0.11"
+    "webpack-cli": "^5.1.4"
   }
 }
